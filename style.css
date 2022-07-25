@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+  
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+  
+ol, ul {
+    list-style: none;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#btn{
+    background: #03bafc;
+    padding: 1rem 1rem;
+    border: 0;
+    border-radius: .35rem;
+    color: white;
+    cursor: pointer;
+    transition: .3s background ease-in-out;
+}
+
+#btn:hover{
+    background: #51d0ff;
+}
+
+.container{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.toast{
+    background: #03bafc;
+    color: white;
+    padding: 1.5rem 2rem;
+    border-radius: .35rem;
+    margin-top: .5rem;
+    cursor: pointer;
+}
+
